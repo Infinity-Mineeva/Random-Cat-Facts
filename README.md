@@ -19,7 +19,7 @@
 
 Introduction
 ---
----
+
 
 Following my completion of Module 7 of Scrimba's [Frontend Developer Career Path Bootcamp](https://scrimba.com/learn/frontend), *Working with APIs*, I wanted to further solidify my understanding of the topics covered. So I set about creating this simple App that retrieves random Cat-related facts 🐱
 
@@ -27,7 +27,7 @@ Following my completion of Module 7 of Scrimba's [Frontend Developer Career Path
 
 Screenshots
 ---
----
+
 
 **DESKTOP:**
 
@@ -39,18 +39,20 @@ Screenshots
 ![image](images/MOBILE_V1_SS.png)
 
 <br>
+
 Methodology
 ---
----
+
 
 Originally, I wanted to make an App for random general facts, but I stumbled on the **Cat Facts API**, and changed course.
 
 I then went into Figma to draw up simple layouts for mobile, tablet and desktop. When completed I wrote up the HTML, CSS, and JavaScript files.
 
 <br>
+
 Tools I Used
 ---
----
+
 
 - HTML5
 - CSS (Mobile-first design)
@@ -58,27 +60,30 @@ Tools I Used
 - [Cat Facts API 1.0.0 ](https://catfact.ninja/)
 
 <br>
+
 What I learned
 ---
----
+
 
 I was going through Figma's tutorials at the time, so it was cool to use it for one of my projects! 
 
 Also, it was nice to get my hands dirty with Fetch API.
 
 <br>
+
 Items for further study / Continued development
 ---
----
+
 
 I certainly want to improve the layout to make it more visually appealing.
 
 Also, in the future once I'm more familiar with React, I would like to update the App wtih React in mind.
 
 <br>
+
 Useful resources
 ---
----
+
 
 The following resources were a great help:
 
@@ -89,9 +94,10 @@ The following resources were a great help:
   - [From Figma to Code](https://scrimba.com/learn/figmatocode)
 
 <br>
+
 About me
 ---
----
+
 
 Thanks for checking out this project! You can find my various profiles here:
 
