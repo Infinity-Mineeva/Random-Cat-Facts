@@ -8,8 +8,7 @@ body {
   font-size: 16px;
   height: 100vh;
   overflow: hidden;
-  background: rgb(142,177,230);
-  background: linear-gradient(132deg, rgba(142,177,230,1) 0%, rgba(45,70,253,1) 100%);
+  background: rgb(250, 221, 148);
 }
 
 /* VARIABLE DECLARATIONS */
@@ -23,17 +22,18 @@ body {
 
 .banner p {
   font-family: var(--header-font);
-  font-size: 2rem;
+  font-size: 1.7rem;
+  text-align: right;
   color: #fff;
-  margin: 0.5em;
+  margin: 0 0.5em;
   padding: 0.5em 0;
-  letter-spacing: .09em;
+  letter-spacing: 0.09em;
 }
 
 .factoid {
   font-family: var(--main-font);
-  letter-spacing: .116em;
-  color: #fff;
+  letter-spacing: 0.116em;
+  color: black;
   font-size: 1.375rem;
   padding: 0 0.5em;
 }
@@ -41,16 +41,35 @@ body {
 /* CONTENT STYLES */
 
 .banner {
-  background-color: #05214b;
+  background-color: #f47e11;
   width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.063em;
+}
+
+.banner img {
+  width: 30%;
+  margin: 1em;
 }
 
 .container {
+  max-width: 950px;
+  margin: 0 auto;
   padding: 1em;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.watermark {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 10em;
 }
 
 .title {
@@ -59,20 +78,41 @@ body {
   align-self: flex-start;
 }
 
-.fact-board {
-  width: 80%;
+.fact-bubble {
+  width: 95%;
   padding: 0.2em;
-  background: #383f38;
-  border: 9px solid #826603;
+  border-radius: 20px;
+  background-color: white;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.fact-bubble:before,
+.fact-bubble:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.fact-bubble:after {
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 0.875em solid transparent;
+  border-right-color: #fff;
+  border-left: 0;
+  margin-top: -0.875em;
+  margin-left: -0.875em;
 }
 
 .fact-btn {
   background: #f1cf1a;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  margin-top: 3rem;
+  margin-top: 5rem;
   padding: 0.5em 0.9em;
-
   font-family: var(--main-font);
   font-size: 1.5rem;
   letter-spacing: 0.04em;
@@ -90,11 +130,19 @@ body {
 
 @media screen and (min-width: 500px) {
   .banner p {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .banner img {
+    width: 20%;
+  }
+
+  .watermark {
+    top: 12em;
   }
 
   .title {
-    font-size: 1.95rem;
+    font-size: 1.9rem;
   }
 
   .factoid {
@@ -107,12 +155,23 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 760px) {
+  .banner {
+    max-height: 173px;
+  }
 
+  .banner img {
+    width: 30%;
+  }
 
   .banner p {
     font-size: 3.5rem;
     padding: 0.8em 0;
+  }
+
+  .watermark {
+    top: 16em;
+    width: 30%;
   }
 
   .title {
@@ -126,5 +185,42 @@ body {
   .fact-btn {
     padding: 0.8em 2em;
     font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .banner p {
+    font-size: 3.5rem;
+    padding: 0.8em 1em;
+  }
+
+  .watermark {
+    top: 18em;
+    width: 28%;
+    max-width: 30%;
+  }
+
+  .banner img {
+    max-width: 298px;
+    margin-left: 3em;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .container {
+    max-width: 1600px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .factoid {
+    font-size: 3rem;
+  }
+
+  .fact-btn {
+    padding: 1em 2em;
+    font-size: 2.5rem;
   }
 }

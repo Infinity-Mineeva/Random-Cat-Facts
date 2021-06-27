@@ -1,14 +1,16 @@
 # RANDOM CAT FACTS<!-- omit in toc -->
 
-## Version 1.0<!-- omit in toc -->
+## Version 1.5<!-- omit in toc -->
 
-- **Project Start:** May 4, 2021
-- **Project End:** May 7, 2021
+- **Updated:** June 27, 2021
 
 # CONTENTS
 - [CONTENTS](#contents)
   - [Introduction](#introduction)
+  - [Changes](#changes)
   - [Screenshots](#screenshots)
+    - [Version 1.5](#version-15)
+    - [Version 1](#version-1)
   - [Methodology](#methodology)
   - [Tools I Used](#tools-i-used)
   - [What I learned](#what-i-learned)
@@ -25,18 +27,47 @@ Following my completion of Module 7 of Scrimba's [Frontend Developer Career Path
 
 <br>
 
+Changes
+---
+
+Since I'm currently learning the ropes of React, the only change is graphical. I updated the look of the app to give it a more cat-oriented theme.
+
+
 Screenshots
 ---
+
+### Version 1.5
 
 
 **DESKTOP:**
 
-![image](images/DESKTOP_V1_SS.png)
+![image](images/screenshots/DESKTOP_V1_5_SS.png)
 <br>
 
 **MOBILE:**
 
-![image](images/MOBILE_V1_SS.png)
+![image](images/screenshots/MOBILE_V1_5_SS.png)
+
+<br>
+
+* Kitty watermark: http://www.clipartbest.com/clipart-RTd6p8kAc
+* Kitty playing with yarn: https://www.123freevectors.com/cat-playing-with-wool-free-vector-graphics/
+
+
+
+
+
+### Version 1
+
+
+**DESKTOP:**
+
+![image](images/screenshots/DESKTOP_V1_SS.png)
+<br>
+
+**MOBILE:**
+
+![image](images/screenshots/MOBILE_V1_SS.png)
 
 <br>
 
@@ -74,10 +105,8 @@ Also, it was nice to get my hands dirty with Fetch API.
 Items for further study / Continued development
 ---
 
+I'm still curious to see how I could refactor the code to work with React, so once I get some more practice in, I'll give it a shot.
 
-I certainly want to improve the layout to make it more visually appealing.
-
-Also, in the future once I'm more familiar with React, I would like to update the App wtih React in mind.
 
 <br>
 
@@ -102,3 +131,5 @@ About me
 Thanks for checking out this project! You can find my various profiles here:
 
 - Frontend Mentor - [@Infinity-Mineeva](https://www.frontendmentor.io/profile/Infinity-Mineeva)
+- Discord - Sonji_Mineeva#8712
+- Twitter - [@IT_Sonji](https://twitter.com/sonji_it)
